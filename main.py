@@ -26,7 +26,7 @@ while guessesTaken < 6:
 
 if guess == number:
     guessesTaken = str(guessesTaken)
-    print("Good Job!" + username + '! you guessed my number in ' + guessesTaken + ' guesses')
+    print("Good Job! " + username + '! you guessed my number in ' + guessesTaken + ' guesses')
 if guess != number:
     number = str(number)
     print("No, the number I was thinking of was "  + number)
